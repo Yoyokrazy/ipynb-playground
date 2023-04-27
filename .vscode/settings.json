@@ -1,0 +1,8 @@
+{
+	// "notebook.experimental.codeActionsOnSave": {
+	// 	"workbench.action.files.newUntitledFile": true,
+	// 	"ipynb.newUntitledIpynb": true,
+	// 	"workbench.action.terminal.openNativeConsole": false
+	// },
+	"notebook.formatOnSave.enabled": true
+}
