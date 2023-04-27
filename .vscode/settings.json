@@ -1,0 +1,8 @@
+{
+	"notebook.experimental.codeActionsOnSave": {
+		"workbench.action.files.newUntitledFile": false,
+		"ipynb.newUntitledIpynb": false,
+		"workbench.action.terminal.openNativeConsole": false
+	},
+	"notebook.formatOnSave.enabled": true
+}
