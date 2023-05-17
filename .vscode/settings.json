@@ -1,8 +1,22 @@
 {
-	"notebook.experimental.codeActionsOnSave": {
-		"workbench.action.files.newUntitledFile": false,
-		"ipynb.newUntitledIpynb": false,
-		"workbench.action.terminal.openNativeConsole": false
+	"notebook.formatOnSave.enabled": false,
+	"python.formatting.provider": "none",
+	"[python]": {
+		"editor.defaultFormatter": "ms-python.black-formatter",
+		"editor.formatOnSave": true,
+		"editor.codeActionsOnSave": {
+			"source.fixAll": true,
+		},
 	},
-	"notebook.formatOnSave.enabled": true
+	"isort.args": [
+		"--profile",
+		"black"
+	],
+	"editor.codeActionWidget.showHeaders": true,
+	"editor.formatOnSave": true,
+	"notebook.experimental.codeActionsOnSave": {
+		"source.organizeImports": true,
+		// "notebook.source.organizeImports": true,
+	},
+	"python.analysis.typeCheckingMode": "basic"
 }
