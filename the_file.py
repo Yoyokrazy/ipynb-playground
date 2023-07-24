@@ -22,7 +22,7 @@ data = DataFrame(
 )
 pd.array
 print(data)
-import time
+# import time
 
 logging.critical("critical")
 

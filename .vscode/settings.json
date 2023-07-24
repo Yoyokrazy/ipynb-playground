@@ -1,22 +1,21 @@
 {
-	"notebook.formatOnSave.enabled": false,
-	"python.formatting.provider": "none",
+	// language specific
 	"[python]": {
-		"editor.defaultFormatter": "ms-python.black-formatter",
-		"editor.formatOnSave": true,
+		"editor.defaultFormatter": "ms-python.python",
 		"editor.codeActionsOnSave": {
-			"source.fixAll": true,
-		},
+			"source.fixAll": true
+		}
 	},
-	"isort.args": [
-		"--profile",
-		"black"
-	],
+	// editor settings
 	"editor.codeActionWidget.showHeaders": true,
 	"editor.formatOnSave": true,
-	"notebook.experimental.codeActionsOnSave": {
-		"source.organizeImports": true,
-		// "notebook.source.organizeImports": true,
+	// notebook settings
+	"notebook.codeActionsOnSave": {
+		"notebook.cleanImports": false
 	},
+	"notebook.formatOnCellExecution": true,
+	"notebook.output.textLineLimit": 50,
+	"ipynb.pasteImagesAsAttachments.enabled": true,
+	// notebook toolbar
 	"python.analysis.typeCheckingMode": "basic"
 }
