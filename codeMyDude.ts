@@ -39,12 +39,19 @@ export class StickyScrollWidget extends Disposable implements IOverlayWidget {
             }
         }
     }
+
+    private something() {
+        asdfasdf
+        asdfa
+        SVGAnimatedTransformListdf
+    }
 }
 
 
 
-class { }
+class {
 
+    // comment!
 
-
+}
 

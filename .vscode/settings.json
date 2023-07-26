@@ -1,7 +1,7 @@
 {
 	// language specific
 	"[python]": {
-		"editor.defaultFormatter": "ms-python.python",
+		// "editor.defaultFormatter": "ms-python.python",
 		"editor.codeActionsOnSave": {
 			"source.fixAll": true
 		}
@@ -17,5 +17,6 @@
 	"notebook.output.textLineLimit": 50,
 	"ipynb.pasteImagesAsAttachments.enabled": true,
 	// notebook toolbar
-	"python.analysis.typeCheckingMode": "basic"
+	"python.analysis.typeCheckingMode": "basic",
+	"remote.tunnels.experimental.forwarding": true
 }
