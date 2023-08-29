@@ -15,8 +15,18 @@
 	},
 	"notebook.formatOnCellExecution": true,
 	"notebook.output.textLineLimit": 50,
+	"notebook.cellToolbarVisibility": "hover",
 	"ipynb.pasteImagesAsAttachments.enabled": true,
-	// notebook toolbar
-	"python.analysis.typeCheckingMode": "basic",
-	"remote.tunnels.experimental.forwarding": true
+	// notebook layout
+	// "notebook.insertToolbarLocation": "hidden",
+	// "notebook.stickyScroll.enabled": true,
+	// "notebook.cellToolbarLocation": {
+	//     "default": "hidden"
+	// },
+	// release notes
+	// "window.zoomLevel": 1,
+	// "editor.fontSize": 14,
+	// "editor.wordWrap": "on",
+	// testing
+	// "remote.SSH.force32bitWindows": true
 }
