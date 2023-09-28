@@ -1,29 +1,37 @@
 {
-	// language specific
-	"[python]": {
-		// "editor.defaultFormatter": "ms-python.python",
-		"editor.codeActionsOnSave": {
-			"source.fixAll": true
-		}
-	},
-	// editor settings
+	// WORKSPACE SETTINGS.JSON
+	//
+	// files settings ================================================
+	"files.insertFinalNewline": true,
+	// "files.trimFinalNewlines": true,
+	// "files.trimTrailingWhitespace": true,
+	// language specific =============================================
+	"[python]": {},
+	// editor settings ===============================================
 	"editor.codeActionWidget.showHeaders": true,
 	"editor.formatOnSave": true,
-	// notebook settings
+	"editor.codeActionsOnSave": {
+		"source.organizeImports": "explicit",
+		"source.fixall": "explicit",
+	},
+	// scm settings ==================================================
+	"scm.experimental.showSyncView": true,
+	// notebook settings =============================================
 	"notebook.codeActionsOnSave": {
-		"notebook.cleanImports": false
+		"notebook.cleanImports": "explicit",
 	},
 	"notebook.formatOnCellExecution": true,
 	"notebook.output.textLineLimit": 50,
 	"notebook.cellToolbarVisibility": "hover",
+	"notebook.revealNextOnExecuteBehavior": "firstLine",
 	"ipynb.pasteImagesAsAttachments.enabled": true,
-	// notebook layout
+	// notebook layout ===============================================
 	// "notebook.insertToolbarLocation": "hidden",
-	// "notebook.stickyScroll.enabled": true,
+	"notebook.stickyScroll.enabled": true,
 	// "notebook.cellToolbarLocation": {
-	//     "default": "hidden"
+	// "default": "hidden"
 	// },
-	// release notes
+	// release notes =================================================
 	// "window.zoomLevel": 1,
 	// "editor.fontSize": 14,
 	// "editor.wordWrap": "on",
