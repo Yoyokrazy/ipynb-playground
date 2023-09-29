@@ -4,7 +4,7 @@
 	// files settings ================================================
 	"files.insertFinalNewline": true,
 	// "files.trimFinalNewlines": true,
-	// "files.trimTrailingWhitespace": true,
+	"files.trimTrailingWhitespace": true,
 	// language specific =============================================
 	"[python]": {},
 	// editor settings ===============================================
@@ -18,7 +18,8 @@
 	"scm.experimental.showSyncView": true,
 	// notebook settings =============================================
 	"notebook.codeActionsOnSave": {
-		"notebook.cleanImports": "explicit",
+		"notebook.source.cleanImports": "explicit",
+		"notebook.source.normalizeVariableNames": "explicit",
 	},
 	"notebook.formatOnCellExecution": true,
 	"notebook.output.textLineLimit": 50,
