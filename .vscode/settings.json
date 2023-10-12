@@ -3,7 +3,7 @@
 	//
 	// files settings ================================================
 	"files.insertFinalNewline": true,
-	// "files.trimFinalNewlines": true,
+	"files.trimFinalNewlines": true,
 	"files.trimTrailingWhitespace": true,
 	// language specific =============================================
 	"[python]": {},
