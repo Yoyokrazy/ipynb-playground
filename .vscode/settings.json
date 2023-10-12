@@ -1,4 +1,9 @@
 {
+	"notebook.codeActionsOnSave": {
+		"notebook.source.cleanImports": "explicit",
+	},
+
+
 	// WORKSPACE SETTINGS.JSON
 	//
 	// files settings ================================================
@@ -17,10 +22,6 @@
 	// scm settings ==================================================
 	"scm.experimental.showSyncView": true,
 	// notebook settings =============================================
-	"notebook.codeActionsOnSave": {
-		"notebook.source.cleanImports": "explicit",
-		"notebook.source.normalizeVariableNames": "explicit",
-	},
 	"notebook.formatOnCellExecution": true,
 	"notebook.output.textLineLimit": 50,
 	"notebook.cellToolbarVisibility": "hover",
