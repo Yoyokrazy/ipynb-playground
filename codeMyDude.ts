@@ -5,26 +5,27 @@
 
 // @ts-nocheck
 
-import * as dom from 'vs/base/browser/dom';
-import { StandardMouseEvent } from 'vs/base/browser/mouseEvent';
-import { createTrustedTypesPolicy } from 'vs/base/browser/trustedTypes';
-import { equals } from 'vs/base/common/arrays';
-import { Disposable, DisposableStore } from 'vs/base/common/lifecycle';
+import { Disposable } from 'vs/base/common/lifecycle';
 import 'vs/css!./stickyScroll';
-import { ICodeEditor, IOverlayWidget, IOverlayWidgetPosition } from 'vs/editor/browser/editorBrowser';
-import { EmbeddedCodeEditorWidget } from 'vs/editor/browser/widget/embeddedCodeEditorWidget';
-import { EditorLayoutInfo, EditorOption, RenderLineNumbersType } from 'vs/editor/common/config/editorOptions';
-import { Position } from 'vs/editor/common/core/position';
-import { StringBuilder } from 'vs/editor/common/core/stringBuilder';
-import { LineDecoration } from 'vs/editor/common/viewLayout/lineDecorations';
-import { RenderLineInput, renderViewLine } from 'vs/editor/common/viewLayout/viewLineRenderer';
+import { ICodeEditor, IOverlayWidget } from 'vs/editor/browser/editorBrowser';
+
+interface a {
+
+}
+
+const other = 55;
+
+interface b {
+    }woah
+
+
 
 export class StickyScrollWidget extends Disposable implements IOverlayWidget {
 
     // this is a comment. woah.
 
     constructor(
-        private readonly _editor: ICodeEditor
+        private readonly _editor?: ICodeEditor
     ) {
         super();
         this._layoutInfo = this._editor.getLayoutInfo();
@@ -37,6 +38,7 @@ export class StickyScrollWidget extends Disposable implements IOverlayWidget {
                 console.log(i);
                 console.log(i);
             }
+
         }
     }
 
@@ -47,7 +49,12 @@ export class StickyScrollWidget extends Disposable implements IOverlayWidget {
     }
 }
 
+const thingy = new StickyScrollWidget();
 
+
+async (params:type) => {
+
+}
 
 class {
 
@@ -55,3 +62,38 @@ class {
 
 }
 
+interface something {
+
+}
+
+class MultiDocumentHighlight {
+
+    /**
+     * The URI of the document containing the highlights.
+     */
+    uri: Uri;
+
+    /**
+     * The highlights for the document.
+     */
+    highlights: DocumentHighlight[];
+
+    /**
+     * Creates a new instance of MultiDocumentHighlight.
+     * @param uri The URI of the document containing the highlights.
+     * @param highlights The highlights for the document.
+     */
+    constructor(uri: Uri, highlights: DocumentHighlight[]);
+}
+
+interface MultiDocumentHighlight {
+    /**
+     * The URI of the document that the highlights belong to.
+     */
+    uri: UriComponents;
+
+    /**
+     * The set of highlights for the document.
+     */
+    highlights: DocumentHighlight[];
+}

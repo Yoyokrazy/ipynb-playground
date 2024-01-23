@@ -8,9 +8,27 @@ interface PokemonInfo {
   description: string;
 }
 
+interface a {
+  // Define the properties of the 'type' interface here
+}
+class testing {
+
+}
+
+const other = 5;
+
+
+const time = 5;
+
+import { StickyScrollWidget } from './codeMyDude';
+
+new StickyScrollWidget();
+
+
+
 async (params:type) => {
 
-}          
+}
 
 async (params:type) => {
 
@@ -29,8 +47,10 @@ async function readPokedexEntry() {
     console.log(`Type: ${pokemonData.type}`);
     console.log(`Description: ${pokemonData.description}`);
   } catch (err) {
-    console.error(`Error reading ${pokemonName}'s Pokédex entry:`, err);
+    console.error(`print hello world Error reading ${pokemonName}'s Pokédex entry:`, err);
   }
 }
 
 readPokedexEntry();
+
+const test = new Disposable();

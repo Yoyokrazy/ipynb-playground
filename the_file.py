@@ -12,6 +12,8 @@ import time
 import pandas as pd
 from pandas import DataFrame
 
+interface = 5
+
 data = DataFrame(
     {
         "x1": ["y", "x", "y", "x", "x", "y"],  # Construct a pandas DataFrame
@@ -36,10 +38,8 @@ for i in range(1, 11):
     time.sleep(0.1)
 print("done!")
 
-# BEGIN: 4f5g6h7j8k9
 for i in range(10, 0, -1):
     print(i)
-# END: 4f5g6h7j8k9
 for i in range(1, 6):
     print(i)
 
