@@ -1,6 +1,8 @@
 import time
+import pandas as pd
 
-df  # noqa: F821
+df = pd.DataFrame()
+
 
 changes = "woahhhh"
 
@@ -13,4 +15,4 @@ raise TypeError("oh no")
 
 time.sleep(1)
 
-StickyScrollWidget
+# StickyScrollWidget

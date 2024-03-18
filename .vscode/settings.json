@@ -1,32 +1,32 @@
 {
-  // WORKSPACE SETTINGS.JSON test
+  "python.analysis.autoImportCompletions": true,
+  "python.analysis.typeCheckingMode": "basic"
+  // WORKSPACE SETTINGS.JSON
   //
   // files settings ================================================
-  "files.insertFinalNewline": true,
-  "files.trimFinalNewlines": true,
-  "files.trimTrailingWhitespace": true,
+  // "files.insertFinalNewline": true,
+  // "files.trimFinalNewlines": true,
+  // "files.trimTrailingWhitespace": true,
   // language specific =============================================
-  "[python]": {},
+  // "[python]": {},
   // editor settings ===============================================
-  "editor.codeActionWidget.showHeaders": true,
-  "editor.formatOnSave": true,
-  "editor.codeActionsOnSave": {
-    "source.organizeImports": "explicit",
-    "source.fixall": "explicit"
-  },
-  // scm settings ==================================================
-  "scm.experimental.showSyncView": true,
+  // "editor.codeActionWidget.showHeaders": true,
+  // "editor.formatOnSave": true,
+  // "editor.codeActionsOnSave": {
+  //   "source.organizeImports": "explicit",
+  //   "source.fixall": "explicit"
+  // },
   // notebook settings =============================================
-  "notebook.formatOnCellExecution": true,
-  "notebook.output.textLineLimit": 50,
-  "notebook.cellToolbarVisibility": "hover",
-  "notebook.revealNextOnExecuteBehavior": "firstLine",
-  "notebook.codeActionsOnSave": {
-    "notebook.source.cleanImports": "never",
-    "source.fixall": "never"
-  },
-  "notebook.insertFinalNewline": true,
-  "ipynb.pasteImagesAsAttachments.enabled": true,
+  // "notebook.formatOnCellExecution": true,
+  // "notebook.output.textLineLimit": 50,
+  // "notebook.cellToolbarVisibility": "hover",
+  // "notebook.scrolling.revealNextCellOnExecute": "firstLine",
+  // "notebook.codeActionsOnSave": {
+  //   "notebook.source.cleanImports": "never",
+  //   "source.fixall": "never"
+  // },
+  // "notebook.insertFinalNewline": true,
+  // "ipynb.pasteImagesAsAttachments.enabled": true,
   // notebook layout ===============================================
   // "notebook.stickyScroll.enabled": true,
   // "notebook.insertToolbarLocation": "hidden",
@@ -38,9 +38,9 @@
   // "editor.fontSize": 14,
   // "editor.wordWrap": "on",
   // testing ========================================================
-  "python.experiments.enabled": true,
-  "python.experiments.optOutFrom": [],
-  "python.experiments.optInFrom": ["pythonREPLSmartSend"],
-  "python.analysis.autoImportCompletions": true,
-  "python.analysis.typeCheckingMode": "basic"
+  // "python.experiments.enabled": true,
+  // "python.experiments.optOutFrom": [],
+  // "python.experiments.optInFrom": ["pythonREPLSmartSend"],
+  // "python.analysis.autoImportCompletions": true,
+  // "python.analysis.typeCheckingMode": "basic"
 }

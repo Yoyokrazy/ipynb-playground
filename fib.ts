@@ -2,6 +2,9 @@ export function sum(a, b) {
 	return a + b;
 }
 
+import { something } from "./codeMyDude";
+import { MultiDocumentHighlight } from "./codeMyDude";
+
 export function sub(a, b) {
 	return a - b;
 }
