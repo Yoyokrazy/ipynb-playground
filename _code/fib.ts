@@ -9,6 +9,8 @@ export function sub(a, b) {
 	return a - b;
 }
 
+const apple = 10
+
 export function mul(a, b) {
 	let result = 0;
 	for (let i = 0; i < b; i++) {
@@ -36,3 +38,4 @@ export function isPrime(n) {
 	}
 	return true;
 }
+
