@@ -38,4 +38,3 @@ export function isPrime(n) {
 	}
 	return true;
 }
-

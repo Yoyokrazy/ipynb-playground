@@ -1,54 +1,41 @@
 {
-	"editor.insertSpaces": true,
-	"notebook.editorOptionsCustomizations": {
-		"editor.insertSpaces": false
+	// WORKSPACE SETTINGS.JSON
+	// files settings ================================================
+	"files.insertFinalNewline": true,
+	"files.trimFinalNewlines": true,
+	"files.trimTrailingWhitespace": true,
+	// language specific =============================================
+	"[python]": {},
+	// editor settings ===============================================
+	"editor.codeActionWidget.showHeaders": true,
+	"editor.formatOnSave": true,
+	"editor.codeActionsOnSave": {
+		"source.organizeImports": "explicit",
+		"source.fixall": "explicit"
 	},
+	// notebook settings =============================================
+	"notebook.formatOnCellExecution": true,
+	"notebook.output.textLineLimit": 50,
+	"notebook.cellToolbarVisibility": "hover",
+	"notebook.scrolling.revealNextCellOnExecute": "firstLine",
+	"notebook.codeActionsOnSave": {
+		"notebook.source.cleanImports": "never",
+		"source.fixall": "never"
+	},
+	"notebook.insertFinalNewline": true,
+	"ipynb.pasteImagesAsAttachments.enabled": true,
+	// notebook layout ===============================================
+	"notebook.stickyScroll.enabled": true,
+	// release notes =================================================
+	"window.zoomLevel": 1,
+	"editor.fontSize": 14,
+	"editor.wordWrap": "on",
+	// testing ========================================================
+	"python.experiments.enabled": true,
+	"python.experiments.optOutFrom": [],
+	"python.experiments.optInFrom": [
+		"pythonREPLSmartSend"
+	],
 	"python.analysis.autoImportCompletions": true,
 	"python.analysis.typeCheckingMode": "basic"
-
-	// "python.analysis.autoImportCompletions": true,
-	// "python.analysis.typeCheckingMode": "basic",
-	// "jupyter.experimental.dropCustomMetadata": true,
-	// WORKSPACE SETTINGS.JSON
-	//
-	// files settings ================================================
-	// "files.insertFinalNewline": true,
-	// "files.trimFinalNewlines": true,
-	// "files.trimTrailingWhitespace": true,
-	// language specific =============================================
-	// "[python]": {},
-	// editor settings ===============================================
-	// "editor.codeActionWidget.showHeaders": true,
-	// "editor.formatOnSave": true,
-	// "editor.codeActionsOnSave": {
-	//   "source.organizeImports": "explicit",
-	//   "source.fixall": "explicit"
-	// },
-	// notebook settings =============================================
-	// "notebook.formatOnCellExecution": true,
-	// "notebook.output.textLineLimit": 50,
-	// "notebook.cellToolbarVisibility": "hover",
-	// "notebook.scrolling.revealNextCellOnExecute": "firstLine",
-	// "notebook.codeActionsOnSave": {
-	//   "notebook.source.cleanImports": "never",
-	//   "source.fixall": "never"
-	// },
-	// "notebook.insertFinalNewline": true,
-	// "ipynb.pasteImagesAsAttachments.enabled": true,
-	// notebook layout ===============================================
-	// "notebook.stickyScroll.enabled": true,
-	// "notebook.insertToolbarLocation": "hidden",
-	// "notebook.cellToolbarLocation": {
-	// "default": "hidden"
-	// },
-	// release notes =================================================
-	// "window.zoomLevel": 1,
-	// "editor.fontSize": 14,
-	// "editor.wordWrap": "on",
-	// testing ========================================================
-	// "python.experiments.enabled": true,
-	// "python.experiments.optOutFrom": [],
-	// "python.experiments.optInFrom": ["pythonREPLSmartSend"],
-	// "python.analysis.autoImportCompletions": true,
-	// "python.analysis.typeCheckingMode": "basic"
 }
