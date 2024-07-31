@@ -8,7 +8,6 @@ interface PokemonInfo {
 }
 interface a {
   // Define the properties of the 'type' interface here
-}
 class testing {
 }
 const other = 5;

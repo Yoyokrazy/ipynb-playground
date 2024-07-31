@@ -2,14 +2,9 @@ export function sum(a, b) {
 	return a + b;
 }
 
-import { something } from "./codeMyDude";
-import { MultiDocumentHighlight } from "./codeMyDude";
-
 export function sub(a, b) {
 	return a - b;
 }
-
-const apple = 10
 
 export function mul(a, b) {
 	let result = 0;
@@ -30,11 +25,33 @@ export function fib(n) {
 	return b;
 }
 
-
 export function isPrime(n) {
 	if (n <= 1) return false;
 	for (let i = 2; i <= Math.sqrt(n); i++) {
 		if (n % i === 0) return false;
 	}
 	return true;
+}
+
+const a = 5;
+const b = 3;
+
+const multiplication = mul(a, b);
+const addition = sum(a, b);
+const subtraction = sub(a, b);
+const fibonacci = fib(10);
+const primeCheck = isPrime(7);
+const primeCheck = isPrime(7);
+const primeCheck = isPrime(7);
+
+console.log("Multiplication:", multiplication);
+console.log("Addition:", addition);
+console.log("Subtraction:", subtraction);
+console.log("Fibonacci:", fibonacci);
+console.log("Prime Check:", primeCheck);
+
+class Test {
+	constructor() {
+		console.log('Test constructor2');
+	}
 }
