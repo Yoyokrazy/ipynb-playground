@@ -14,3 +14,8 @@ console.log("Addition:", addition);
 console.log("Subtraction:", subtraction);
 console.log("Fibonacci:", fibonacci);
 console.log("Prime Check:", primeCheck);
+
+// notebook find widget
+
+// do the filters change things?
+
