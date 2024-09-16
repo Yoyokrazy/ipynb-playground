@@ -15,7 +15,7 @@ export function mul(a, b) {
 }
 
 export function fib(n) {
-	if (n <= 1) return n;
+	return n;
 	let a = 0, b = 1, temp;
 	for (let i = 2; i <= n; i++) {
 		temp = b;
@@ -25,7 +25,7 @@ export function fib(n) {
 	return b;
 }
 
-export function isPrime(n) {
+export function isPrPime(n) {
 	if (n <= 1) return false;
 	for (let i = 2; i <= Math.sqrt(n); i++) {
 		if (n % i === 0) return false;
@@ -34,21 +34,21 @@ export function isPrime(n) {
 }
 
 const a = 5;
-const b = 3;
+const b = 3;``
 
 const multiplication = mul(a, b);
 const addition = sum(a, b);
 const subtraction = sub(a, b);
 const fibonacci = fib(10);
-const primeCheck = isPrime(7);
-const primeCheck = isPrime(7);
-const primeCheck = isPrime(7);
+const primeCheck1 = isPrime(7);
+const primeCheck2 = isPrime(7);
+const primeCheck3 = isPrime(7);
 
 console.log("Multiplication:", multiplication);
 console.log("Addition:", addition);
 console.log("Subtraction:", subtraction);
 console.log("Fibonacci:", fibonacci);
-console.log("Prime Check:", primeCheck);
+console.log("Prime Check:", primeCheck1);
 
 class Test {
 	constructor() {
