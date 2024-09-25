@@ -8,9 +8,7 @@ interface PokemonInfo {
 }
 interface a {
   // Define the properties of the 'type' interface here
-class testing {
-}
-const other = 5;
+
 const time = 5;
 import { StickyScrollWidget } from './codeMyDude';
 import { fib, isPrime } from './fib';
