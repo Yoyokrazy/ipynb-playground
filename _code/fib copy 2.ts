@@ -22,3 +22,9 @@ class Test {
         console.log('Test constructor1');
     }
 }
+
+
+print("Hello, World!")
+print("Hello, World!")
+print("Hello, World!")
+print("Hello, World!")
