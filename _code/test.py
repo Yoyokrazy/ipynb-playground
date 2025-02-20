@@ -46,3 +46,11 @@ def local_fn():
     c = a + b
 
     return c
+
+import pandas as pdf
+
+# create a dataframe with sample data
+data = {'Name': ['Alice', 'Bob', 'Charlie', 'David'], 'Age': [25, 30, 35, 40]}
+df = pd.DataFrame(data)
+
+df
