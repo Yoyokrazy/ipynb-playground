@@ -1,0 +1,23 @@
+{
+    "cells": [
+        {
+            "language": "typescript",
+            "source": [
+                "let myVariable = 10;\r\n\r\nfunction myFunction() {\r\n    let myVariable = 20;\r\n    console.log(\"Inside function: \" + myVariable);\r\n}"
+            ],
+            "outputs": [
+                {
+                    "items": [
+                        {
+                            "mime": "application/vnd.code.notebook.stdout",
+                            "value": [
+                                "",
+                                ""
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

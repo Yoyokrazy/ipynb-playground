@@ -28,3 +28,8 @@ def is_prime(num):
 # Example usage
 number = 29
 print(f"Is {number} a prime number? {is_prime(number)}")
+
+
+import time
+
+

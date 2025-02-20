@@ -1,27 +1,42 @@
-my_dict = {
-    'key1': 'value1',
-    'key2': 'value2',
-    'key3': 'value3',
-    'key4': 'value4'
-}
+import pandas as pd
+import numpy as np
 
-class MyClass:
-    def my_function(self):
-        print("Hello, world!")
-        print("bye, world!")
+a = {'value': 5}
 
-    print("asdf, world!")
-    print("fghj, world!")
+b = 'world'
 
-# Create an instance of MyClass
-my_instance = MyClass()
+c = 10
 
-# Call the my_function method
-my_instance.my_function()
+def local_fn():
+    a = 5
+    b = 100
 
-"""
-hello there
+    print(a)
 
+    c = a + b
 
+    return c
 
-"""
+result = local_fn()
+
+a['pie'] = 3.14
+
+test = 'hello'
+
+print(a)
+
+local_fn()
+
+# Create a large DataFrame with random data
+rows, cols = 1000, 10
+data = np.random.randn(rows, cols)
+columns = [f'col_{i}' for i in range(cols)]
+
+df = pd.DataFrame(data, columns=columns)
+
+print(df)
+
+data = {'Name': ['Alice', 'Bob', 'Charlie', 'David'], 'Age': [25, 30, 35, 40]}
+df = pd.DataFrame(data)
+
+df

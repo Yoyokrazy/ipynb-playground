@@ -6,8 +6,6 @@ export function sub(a, b) {
 	return a - b;
 }
 
-
-
 export function mul(a, b) {
 	let result = 0;
 	for (let i = 0; i < b; i++) {
@@ -27,7 +25,7 @@ export function fib(n) {
 	return b;
 }
 
-export function isPrPime(n) {
+export function isPrime(n) {
 	if (n <= 1) return false;
 	for (let i = 2; i <= Math.sqrt(n); i++) {
 		if (n % i === 0) return false;
@@ -36,7 +34,7 @@ export function isPrPime(n) {
 }
 
 const a = 5;
-const b = 3;``
+const b = 3;
 
 const multiplication = mul(a, b);
 const addition = sum(a, b);
@@ -55,5 +53,13 @@ console.log("Prime Check:", primeCheck1);
 class Test {
 	constructor() {
 		console.log('Test constructor2');
+	}
+
+	testMethod() {
+		console.log('This is a test method.');
+	}
+	
+	runTest() {
+		this.testMethod();
 	}
 }
