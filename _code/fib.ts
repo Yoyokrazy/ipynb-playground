@@ -36,6 +36,8 @@ export function isPrime(n) {
 const a = 5;
 const b = 3;
 
+a
+
 const multiplication = mul(a, b);
 const addition = sum(a, b);
 const subtraction = sub(a, b);

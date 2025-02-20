@@ -23,9 +23,6 @@ my_instance.my_function()
 
 """
 hello there
-
-
-
 """
 
 # Create a sample DataFrame
@@ -47,7 +44,7 @@ def local_fn():
 
     return c
 
-import pandas as pdf
+import pandas as pd
 
 # create a dataframe with sample data
 data = {'Name': ['Alice', 'Bob', 'Charlie', 'David'], 'Age': [25, 30, 35, 40]}
