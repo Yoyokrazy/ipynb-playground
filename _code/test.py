@@ -35,3 +35,14 @@ df = pd.DataFrame({
     'C': [True, False, True]
 })
 print(df)
+
+
+def local_fn():
+    a = 5
+    b = 100
+
+    print(a)
+
+    c = a + b
+
+    return c
