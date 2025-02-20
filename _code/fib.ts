@@ -37,6 +37,7 @@ const a = 5;
 const b = 3
 
 const asdfasdfasdfasdf = a
+const blahblahblah = a;
 
 const multiplication = mul(a, b);
 const addition = sum(a, b);
