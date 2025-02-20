@@ -34,7 +34,7 @@ export function isPrime(n) {
 }
 
 const a = 5;
-const b = 3;
+const b = 3
 
 const asdfasdfasdfasdf = a
 
