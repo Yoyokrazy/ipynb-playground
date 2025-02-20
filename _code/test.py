@@ -36,7 +36,7 @@ df = pd.DataFrame(data, columns=columns)
 
 print(df)
 
-data = {'Name': ['Alice', 'Bob', 'Charlie', 'David'], 'Age': [25, 30, 35, 40]}
-df = pd.DataFrame(data)
+dat = {'Name': ['Alice', 'Bob', 'Charlie', 'David'], 'Age': [25, 30, 35, 40]}
+df = pd.DataFrame(dat)
 
 df
