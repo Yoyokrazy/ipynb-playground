@@ -1,3 +1,5 @@
+import pandas as pd
+
 my_dict = {
     'key1': 'value1',
     'key2': 'value2',
@@ -25,3 +27,11 @@ hello there
 
 
 """
+
+# Create a sample DataFrame
+df = pd.DataFrame({
+    'A': [1, 2, 3],
+    'B': ['x', 'y', 'z'],
+    'C': [True, False, True]
+})
+print(df)
