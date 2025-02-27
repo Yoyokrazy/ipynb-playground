@@ -36,7 +36,7 @@ export function isPrime(n) {
 const a = 5;
 const b = 3;
 
-const multiplication = mul(a, b);
+const  = mul(a, b);
 const addition = sum(a, b);
 const subtraction = sub(a, b);
 const fibonacci = fib(10);
@@ -44,11 +44,16 @@ const primeCheck1 = isPrime(7);
 const primeCheck2 = isPrime(7);
 const primeCheck3 = isPrime(7);
 
-console.log("Multiplication:", multiplication);
+console.log("Multiplication:", );
 console.log("Addition:", addition);
 console.log("Subtraction:", subtraction);
 console.log("Fibonacci:", fibonacci);
 console.log("Prime Check:", primeCheck1);
+console.log("Prime Check:", primeCheck2);
+
+
+const asdfasdf = primeCheck1;
+console.log("Prime Check:", primeCheck3);
 
 class Test {
 	constructor() {

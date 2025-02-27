@@ -1,0 +1,2 @@
+Technology: JavaScript introduced in 2015
+Advantages: interactive, widely adopted, flexible, client-side scripting
