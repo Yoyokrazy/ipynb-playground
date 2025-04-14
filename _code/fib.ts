@@ -55,16 +55,16 @@ console.log("Prime Check:", primeCheck2);
 const asdfasdf = primeCheck1;
 console.log("Prime Check:", primeCheck3);
 
-class Test {
+class asdfasdf {
 	constructor() {
-		console.log('Test constructor2');
+		console.log('asdfasdf constructor2');
 	}
 
-	testMethod() {
-		console.log('This is a test method.');
+	asdfasdfMethod() {
+		console.log('This is a asdfasdf method.');
 	}
 	
-	runTest() {
-		this.testMethod();
+	runasdfasdf() {
+		this.asdfasdfMethod();
 	}
 }
