@@ -36,7 +36,7 @@ export function isPrime(n) {
 const a = 5;
 const b = 3;
 
-const  = mul(a, b);
+const foo = mul(a, b);
 const addition = sum(a, b);
 const subtraction = sub(a, b);
 const fibonacci = fib(10);
@@ -63,7 +63,7 @@ class asdfasdf {
 	asdfasdfMethod() {
 		console.log('This is a asdfasdf method.');
 	}
-	
+
 	runasdfasdf() {
 		this.asdfasdfMethod();
 	}
