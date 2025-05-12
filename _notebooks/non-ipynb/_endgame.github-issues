@@ -2,6 +2,11 @@
   {
     "kind": 1,
     "language": "markdown",
+    "value": "# Endgame GitHub Issues\nThis notebook contains queries and notes for managing GitHub issues during the endgame process."
+  },
+  {
+    "kind": 1,
+    "language": "markdown",
     "value": "#### Macros"
   },
   {
@@ -97,7 +102,7 @@
   {
     "kind": 2,
     "language": "github-issues",
-    "value": "$REOS $MILESTONE is:issue is:closed reason:completed label:verification-needed -label:verified\r\n"
+    "value": "$REPOS $MILESTONE is:issue is:closed reason:completed label:verification-needed -label:verified\r\n"
   },
   {
     "kind": 1,

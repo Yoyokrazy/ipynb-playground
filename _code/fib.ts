@@ -1,3 +1,5 @@
+// woohoo
+// filepath: c:\Users\milively\Documents\_dev_work\playground-0\_code\fib.ts
 export function sum(a, b) {
 	return a + b;
 }
@@ -15,7 +17,6 @@ export function mul(a, b) {
 }
 
 export function fib(n) {
-	return n;
 	let a = 0, b = 1, temp;
 	for (let i = 2; i <= n; i++) {
 		temp = b;
@@ -33,38 +34,8 @@ export function isPrime(n) {
 	return true;
 }
 
-const a = 5;
-const b = 3;
-
-const foo = mul(a, b);
-const addition = sum(a, b);
-const subtraction = sub(a, b);
-const fibonacci = fib(10);
-const primeCheck1 = isPrime(7);
-const primeCheck2 = isPrime(7);
-const primeCheck3 = isPrime(7);
-
-console.log("Multiplication:", );
-console.log("Addition:", addition);
-console.log("Subtraction:", subtraction);
-console.log("Fibonacci:", fibonacci);
-console.log("Prime Check:", primeCheck1);
-console.log("Prime Check:", primeCheck2);
+// Example usage
+const result = fib(10);
+console.log("Fibonacci(10):", result);
 
 
-const asdfasdf = primeCheck1;
-console.log("Prime Check:", primeCheck3);
-
-class asdfasdf {
-	constructor() {
-		console.log('asdfasdf constructor2');
-	}
-
-	asdfasdfMethod() {
-		console.log('This is a asdfasdf method.');
-	}
-
-	runasdfasdf() {
-		this.asdfasdfMethod();
-	}
-}
