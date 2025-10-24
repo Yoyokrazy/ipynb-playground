@@ -55,6 +55,23 @@ def is_prime(num):
 
     return True
 
+def gcd(a, b):
+    """
+    Calculate the Greatest Common Divisor (GCD) of two numbers using Euclidean algorithm.
+
+    Args:
+        a (int): First number
+        b (int): Second number
+
+    Returns:
+        int: The GCD of a and b
+    """
+    while b != 0:
+        temp = b
+        b = a % b
+        a = temp
+    return a
+
 def main():
     # Fibonacci example
     n = 20
@@ -70,6 +87,14 @@ def main():
     result = is_prime(number)
     end_time = time.time()
     print(f"Is {number} a prime number? {result}")
+    print(f"Time taken: {end_time - start_time:.6f} seconds")
+
+    # GCD example
+    a, b = 48, 18
+    start_time = time.time()
+    result = gcd(a, b)
+    end_time = time.time()
+    print(f"GCD of {a} and {b}: {result}")
     print(f"Time taken: {end_time - start_time:.6f} seconds")
 
 if __name__ == "__main__":
