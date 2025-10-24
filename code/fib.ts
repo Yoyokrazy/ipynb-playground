@@ -34,6 +34,15 @@ export function isPrime(n) {
 	return true;
 }
 
+export function gcd(a, b) {
+	while (b !== 0) {
+		let temp = b;
+		b = a % b;
+		a = temp;
+	}
+	return a;
+}
+
 // Example usage
 const result = fib(10);
 console.log("Fibonacci(10):", result);
