@@ -28,3 +28,4 @@ describe('mul f<<CURSOR>>unction', () => { // CURSOR POSITION
 	});
 
 });
+
