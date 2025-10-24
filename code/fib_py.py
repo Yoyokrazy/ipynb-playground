@@ -64,8 +64,9 @@ def gcd(a, b):
         b (int): Second number
 
     Returns:
-        int: The GCD of a and b
+        int: The GCD of a and b (always positive)
     """
+    a, b = abs(a), abs(b)
     while b != 0:
         temp = b
         b = a % b

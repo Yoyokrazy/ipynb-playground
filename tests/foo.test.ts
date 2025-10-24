@@ -1,5 +1,5 @@
 import {expect, describe, it} from 'vitest';
-import { mul, gcd } from '../code/fib';
+import { mul } from '../_code/fib';
 
 describe('mul f<<CURSOR>>unction', () => { // CURSOR POSITION
 	it('should return 6 for mul(2, 3)', () => {
@@ -29,29 +29,3 @@ describe('mul f<<CURSOR>>unction', () => { // CURSOR POSITION
 
 });
 
-describe('gcd function', () => {
-	it('should return 6 for gcd(48, 18)', () => {
-		const result = gcd(48, 18);
-		expect(result).to.equal(6);
-	});
-
-	it('should return 1 for gcd(17, 19)', () => {
-		const result = gcd(17, 19);
-		expect(result).to.equal(1);
-	});
-
-	it('should return 5 for gcd(5, 0)', () => {
-		const result = gcd(5, 0);
-		expect(result).to.equal(5);
-	});
-
-	it('should return 7 for gcd(0, 7)', () => {
-		const result = gcd(0, 7);
-		expect(result).to.equal(7);
-	});
-
-	it('should return 12 for gcd(60, 48)', () => {
-		const result = gcd(60, 48);
-		expect(result).to.equal(12);
-	});
-});

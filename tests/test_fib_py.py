@@ -40,6 +40,10 @@ def test_gcd():
     assert gcd(0, 7) == 7
     assert gcd(60, 48) == 12
     assert gcd(100, 50) == 50
+    # Test with negative numbers
+    assert gcd(-48, 18) == 6
+    assert gcd(48, -18) == 6
+    assert gcd(-48, -18) == 6
     print("✓ All gcd tests passed")
 
 
