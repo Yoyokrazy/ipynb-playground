@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-// change
+// changeasdfasdf
 
 public class PatientPriority {
     // Class constant for hospital zip code
