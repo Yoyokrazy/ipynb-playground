@@ -1,5 +1,7 @@
 import java.util.Scanner;
 
+// change
+
 public class PatientPriority {
     // Class constant for hospital zip code
     private static final String HOSPITAL_ZIP = "12345";
