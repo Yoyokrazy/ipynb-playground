@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jupyter Notebook Gallery</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 2rem 1rem;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        header {
+            text-align: center;
+            color: white;
+            margin-bottom: 3rem;
+        }
+        
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 0.5rem;
+            font-weight: 700;
+        }
+        
+        .subtitle {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+        
+        .category {
+            margin-bottom: 3rem;
+        }
+        
+        .category-header {
+            background: rgba(255, 255, 255, 0.95);
+            padding: 1rem 1.5rem;
+            border-radius: 12px 12px 0 0;
+            margin-bottom: 0;
+        }
+        
+        .category-title {
+            font-size: 1.5rem;
+            color: #667eea;
+            font-weight: 600;
+            text-transform: capitalize;
+        }
+        
+        .notebook-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 1.5rem;
+            background: rgba(255, 255, 255, 0.95);
+            padding: 1.5rem;
+            border-radius: 0 0 12px 12px;
+        }
+        
+        .notebook-card {
+            background: white;
+            border-radius: 8px;
+            padding: 1.5rem;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s, box-shadow 0.2s;
+            text-decoration: none;
+            color: inherit;
+            display: block;
+            border: 2px solid transparent;
+        }
+        
+        .notebook-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 4px 16px rgba(102, 126, 234, 0.3);
+            border-color: #667eea;
+        }
+        
+        .notebook-title {
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: #667eea;
+            margin-bottom: 0.5rem;
+        }
+        
+        .notebook-description {
+            color: #666;
+            font-size: 0.9rem;
+            margin-bottom: 1rem;
+            line-height: 1.5;
+        }
+        
+        .notebook-path {
+            font-size: 0.8rem;
+            color: #999;
+            font-family: 'Courier New', monospace;
+        }
+        
+        .icon {
+            display: inline-block;
+            margin-right: 0.5rem;
+            font-size: 1.2rem;
+        }
+        
+        footer {
+            text-align: center;
+            color: white;
+            margin-top: 3rem;
+            opacity: 0.8;
+            font-size: 0.9rem;
+        }
+        
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2rem;
+            }
+            
+            .notebook-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📓 Notebook Gallery</h1>
+            <p class="subtitle">Browse 17 Jupyter notebooks across 5 categories</p>
+        </header>
+        
+        <main>
+
+            <section class="category">
+                <div class="category-header">
+                    <h2 class="category-title">generic</h2>
+                </div>
+                <div class="notebook-grid">
+
+                    <a href="notebooks/cycling/generic/gpx_analysis.ipynb" class="notebook-card">
+                        <h3 class="notebook-title">
+                            <span class="icon">📔</span>GPX File Analysis
+                        </h3>
+                        <p class="notebook-description">In this notebook, we'll analyze the GPX file from a cycling activity. GPX (GPS Exchange Format) files contain location data including latitude, lon...</p>
+                        <div class="notebook-path">notebooks/cycling/generic/gpx_analysis.ipynb</div>
+                    </a>
+
+                </div>
+            </section>
+
+            <section class="category">
+                <div class="category-header">
+                    <h2 class="category-title">rich notebooks</h2>
+                </div>
+                <div class="notebook-grid">
+
+                    <a href="notebooks/rich notebooks/example_notebook.ipynb" class="notebook-card">
+                        <h3 class="notebook-title">
+                            <span class="icon">📔</span>Example Notebook
+                        </h3>
+                        
+                        <div class="notebook-path">notebooks/rich notebooks/example_notebook.ipynb</div>
+                    </a>
+
+                    <a href="notebooks/rich notebooks/fib_funct.ipynb" class="notebook-card">
+                        <h3 class="notebook-title">
+                            <span class="icon">📔</span>Fib Funct
+                        </h3>
+                        
+                        <div class="notebook-path">notebooks/rich notebooks/fib_funct.ipynb</div>
+                    </a>
+
+                    <a href="notebooks/rich notebooks/trial.ipynb" class="notebook-card">
+                        <h3 class="notebook-title">
+                            <span class="icon">📔</span>Trial
+                        </h3>
+                        
+                        <div class="notebook-path">notebooks/rich notebooks/trial.ipynb</div>
+                    </a>
+
+                </div>
+            </section>
+
+            <section class="category">
+                <div class="category-header">
+                    <h2 class="category-title">simple notebooks</h2>
+                </div>
+                <div class="notebook-grid">
+
+                    <a href="notebooks/simple notebooks/200-hw-cells.ipynb" class="notebook-card">
+                        <h3 class="notebook-title">
+                            <span class="icon">📔</span>200 Hw Cells
+                        </h3>
+                        
+                        <div class="notebook-path">notebooks/simple notebooks/200-hw-cells.ipynb</div>
+                    </a>
+
+                    <a href="notebooks/simple notebooks/generate-logo.ipynb" class="notebook-card">
+                        <h3 class="notebook-title">
+                            <span class="icon">📔</span>Generating a logo from the Python extension for VS Code docs
+                        </h3>
+                        <p class="notebook-description">Display word cloud with Python mask</p>
+                        <div class="notebook-path">notebooks/simple notebooks/generate-logo.ipynb</div>
+                    </a>
+
+                    <a href="notebooks/simple notebooks/header-test.ipynb" class="notebook-card">
+                        <h3 class="notebook-title">
+                            <span class="icon">📔</span>h1 - a
+                        </h3>
+                        
+                        <div class="notebook-path">notebooks/simple notebooks/header-test.ipynb</div>
+                    </a>
+
+                    <a href="notebooks/simple notebooks/html-header-folding.ipynb" class="notebook-card">
+                        <h3 class="notebook-title">
+                            <span class="icon">📔</span>hello
+                        </h3>
+                        <p class="notebook-description"><h1> testing</p>
+                        <div class="notebook-path">notebooks/simple notebooks/html-header-folding.ipynb</div>
+                    </a>
+
+                    <a href="notebooks/simple notebooks/html-output-copy.ipynb" class="notebook-card">
+                        <h3 class="notebook-title">
+                            <span class="icon">📔</span>Html Output Copy
+                        </h3>
+                        <p class="notebook-description">ctrl+c from print</p>
+                        <div class="notebook-path">notebooks/simple notebooks/html-output-copy.ipynb</div>
+                    </a>
+
+                    <a href="notebooks/simple notebooks/js-cell.ipynb" class="notebook-card">
+                        <h3 class="notebook-title">
+                            <span class="icon">📔</span>h1
+                        </h3>
+                        
+                        <div class="notebook-path">notebooks/simple notebooks/js-cell.ipynb</div>
+                    </a>
+
+                    <a href="notebooks/simple notebooks/massive-garbage.ipynb" class="notebook-card">
+                        <h3 class="notebook-title">
+                            <span class="icon">📔</span>Header 1
+                        </h3>
+                        <p class="notebook-description">Nupedia</p>
+                        <div class="notebook-path">notebooks/simple notebooks/massive-garbage.ipynb</div>
+                    </a>
+
+                    <a href="notebooks/simple notebooks/py-lang.ipynb" class="notebook-card">
+                        <h3 class="notebook-title">
+                            <span class="icon">📔</span>Python Programming Fundamentals
+                        </h3>
+                        <p class="notebook-description">This notebook demonstrates key Python features, building concepts progressively.</p>
+                        <div class="notebook-path">notebooks/simple notebooks/py-lang.ipynb</div>
+                    </a>
+
+                    <a href="notebooks/simple notebooks/single-cell.ipynb" class="notebook-card">
+                        <h3 class="notebook-title">
+                            <span class="icon">📔</span>Single Cell
+                        </h3>
+                        
+                        <div class="notebook-path">notebooks/simple notebooks/single-cell.ipynb</div>
+                    </a>
+
+                    <a href="notebooks/simple notebooks/sleep-cells.ipynb" class="notebook-card">
+                        <h3 class="notebook-title">
+                            <span class="icon">📔</span>Sleep Cells
+                        </h3>
+                        
+                        <div class="notebook-path">notebooks/simple notebooks/sleep-cells.ipynb</div>
+                    </a>
+
+                    <a href="notebooks/simple notebooks/sleep-cells-output.ipynb" class="notebook-card">
+                        <h3 class="notebook-title">
+                            <span class="icon">📔</span>Sleep Cells Output
+                        </h3>
+                        
+                        <div class="notebook-path">notebooks/simple notebooks/sleep-cells-output.ipynb</div>
+                    </a>
+
+                </div>
+            </section>
+
+            <section class="category">
+                <div class="category-header">
+                    <h2 class="category-title">titanic</h2>
+                </div>
+                <div class="notebook-grid">
+
+                    <a href="notebooks/titanic/titanic.ipynb" class="notebook-card">
+                        <h3 class="notebook-title">
+                            <span class="icon">📔</span>Kaggle Machine Learning Competition: Predicting Titanic Survivors
+                        </h3>
+                        <p class="notebook-description">This notebook was prepared by [Donne Martin](http://donnemartin.com). Source and license info is on [GitHub](https://github.com/donnemartin/data-sc...</p>
+                        <div class="notebook-path">notebooks/titanic/titanic.ipynb</div>
+                    </a>
+
+                </div>
+            </section>
+
+            <section class="category">
+                <div class="category-header">
+                    <h2 class="category-title">zwift</h2>
+                </div>
+                <div class="notebook-grid">
+
+                    <a href="notebooks/cycling/zwift/zwift-cycling-analysis.ipynb" class="notebook-card">
+                        <h3 class="notebook-title">
+                            <span class="icon">📔</span>Zwift Cycling Performance Analysis
+                        </h3>
+                        <p class="notebook-description">This notebook analyzes cycling performance data from a Zwift GPX file, focusing on power metrics and other performance indicators. We'll extract, p...</p>
+                        <div class="notebook-path">notebooks/cycling/zwift/zwift-cycling-analysis.ipynb</div>
+                    </a>
+
+                </div>
+            </section>
+
+        </main>
+        
+        <footer>
+            <p>Generated on 2025-11-04 19:47:40</p>
+        </footer>
+    </div>
+</body>
+</html>
