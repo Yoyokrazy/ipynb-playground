@@ -6,9 +6,13 @@ Scans the notebooks directory and generates an HTML gallery page.
 
 import json
 import os
+import re
 from pathlib import Path
 from typing import List, Dict, Optional
 from datetime import datetime
+
+# Constants
+MAX_DESCRIPTION_LENGTH = 150
 
 
 class NotebookInfo:
@@ -61,10 +65,19 @@ class NotebookInfo:
                         # Skip heading lines, get the first paragraph
                         for line in lines:
                             if not line.startswith('#'):
-                                # Limit to 150 characters
-                                if len(line) > 150:
-                                    return line[:147] + '...'
-                                return line
+                                # Strip HTML tags
+                                clean_line = re.sub(r'<[^>]+>', '', line)
+                                # Strip markdown links [text](url)
+                                clean_line = re.sub(r'\[([^\]]+)\]\([^\)]+\)', r'\1', clean_line)
+                                # Strip remaining markdown formatting
+                                clean_line = clean_line.replace('**', '').replace('*', '').replace('`', '')
+                                clean_line = clean_line.strip()
+                                
+                                if clean_line:
+                                    # Limit to MAX_DESCRIPTION_LENGTH characters
+                                    if len(clean_line) > MAX_DESCRIPTION_LENGTH:
+                                        return clean_line[:MAX_DESCRIPTION_LENGTH - 3] + '...'
+                                    return clean_line
         except (json.JSONDecodeError, IOError):
             pass
         
