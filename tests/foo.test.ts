@@ -1,7 +1,7 @@
 import {expect, describe, it} from 'vitest';
-import { mul } from '../_code/fib';
+import { mul } from '../code/fibonacci_utils';
 
-describe('mul f<<CURSOR>>unction', () => { // CURSOR POSITION
+describe('mul function', () => { // CURSOR POSITION
 	it('should return 6 for mul(2, 3)', () => {
 		const result = mul(2, 3);
 		expect(result).to.equal(6);

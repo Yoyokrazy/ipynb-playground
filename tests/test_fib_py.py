@@ -1,5 +1,5 @@
 """
-Unit tests for fib_py.py functions
+Unit tests for consolidated fibonacci_utils.py functions
 """
 import sys
 import os
@@ -7,7 +7,7 @@ import os
 # Add the code directory to the path
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', 'code'))
 
-from fib_py import fibonacci, is_prime, gcd
+from fibonacci_utils import fibonacci, is_prime, gcd
 
 
 def test_fibonacci():

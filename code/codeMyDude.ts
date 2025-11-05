@@ -8,7 +8,7 @@
 import { Disposable } from 'vs/base/common/lifecycle';
 import 'vs/css!./stickyScroll';
 import { ICodeEditor, IOverlayWidget } from 'vs/editor/browser/editorBrowser';
-import { fib } from './fib';
+import { fib } from './fibonacci_utils';
 
 interface a {
 
