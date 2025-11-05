@@ -44,7 +44,7 @@ export class StickyScrollWidget extends Disposable implements IOverlayWidget {
 		}
 	}
 
-    
+
 
 	private something() {
 		asdfasdf

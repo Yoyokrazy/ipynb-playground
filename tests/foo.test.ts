@@ -28,4 +28,3 @@ describe('mul function', () => { // CURSOR POSITION
 	});
 
 });
-
