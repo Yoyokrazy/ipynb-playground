@@ -303,7 +303,8 @@ def generate_html(notebooks: List[NotebookInfo], output_path: Path):
 def main():
     """Main entry point."""
     script_dir = Path(__file__).parent
-    notebooks_dir = script_dir / 'notebooks'
+    repo_root = script_dir.parent
+    notebooks_dir = repo_root / 'notebooks'
     output_path = script_dir / 'gallery.html'
     
     if not notebooks_dir.exists():

@@ -11,13 +11,13 @@ This repository includes a gallery generator that creates a beautiful HTML page 
 Generate the gallery by running:
 
 ```bash
-python3 generate_gallery.py
+python3 gallery/generate_gallery.py
 ```
 
 This will:
 - Scan all `.ipynb` files in the `notebooks/` directory
 - Extract titles and descriptions from the notebooks
-- Generate a responsive HTML gallery at `gallery.html`
+- Generate a responsive HTML gallery at `gallery/gallery.html`
 
 ### Features
 
@@ -30,7 +30,7 @@ This will:
 
 ### Notebooks
 
-Browse the collection at `gallery.html` after generation, or explore the directories:
+Browse the collection at `gallery/gallery.html` after generation, or explore the directories:
 
 - `notebooks/cycling/` - Cycling performance analysis
 - `notebooks/titanic/` - Machine learning with Titanic dataset
