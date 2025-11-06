@@ -5,8 +5,8 @@ import sys
 import os
 from pathlib import Path
 
-# Add the parent directory to the path
-sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..'))
+# Add the current directory to the path
+sys.path.insert(0, os.path.dirname(__file__))
 
 from generate_gallery import NotebookInfo, find_notebooks, generate_html
 
